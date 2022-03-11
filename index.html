@@ -8,11 +8,53 @@
       integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
       crossorigin="anonymous" referrerpolicy="no-referrer" />
       <link rel="stylesheet" href="style.css">
-   <title>My Project</title>
+   <title>Luigi's Lawn Service</title>
 </head>
 <body>
-   <h1>Project Starter</h1>
-   
+   <main>
+      <section id="home">
+         <div id="hero" class="container">
+            
+         </div>
+      </section>
+      <section id="about">
+         <div class="about">
+            <div class="info">
+            <h2>About</h2>
+            <ul>
+               <li>Licensed & Bonded</li>
+               <li>FBI Background checked</li>
+               <li>20 years experience</li>
+               <li>Local family business</li>
+            </ul>
+            </div>
+            <div class="pic">
+               <img class="about-img" src="./lawnmower.jpg
+               " alt="">
+            </div>
+         </div>
+      </section>
+      <section id="contact">
+         <h2 class="contact-title">Request a quote today!</h2>
+         <div class="container">
+            
+            <div class="form">
+               <form action="https://formsubmit.co/thomas.aurelius.widmer@gmail.com" method="POST">
+                  <input type="text" name="name" class="form_name" id="name" required placeholder="Name">
+                  <input type="text" class="form_address" name="address" required placeholder="Address">
+                  <input type="email" class="form_email" name="email" required placeholder="Email Address">
+                  <input type="hidden" name="_subject" value="Website Form Submission" id="">
+                  <textarea name="message" placeholder="Additional services requested, ie bagging, trimming, mulching etc..."></textarea>
+                  <input type="text" name="_honey" style="display:none">
+                  <input type="hidden" name="_next" value="https://thomasaurelius.com/thanks.html">
+                  <button type="submit">Send</button>
+               </form>
+         </div>
+      </section>
+
+
+
+   </main>
    <script src="script.js"></script>
 </body>
 </html>
