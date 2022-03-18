@@ -73,3 +73,70 @@ nav,
 section {
 	display: block;
 }
+
+section.home {
+	background-color: #eee;
+	min-height: 90vh;
+}
+
+.logo {
+	display: flex;
+	justify-content: center;
+}
+
+.super {
+	font-size: 4rem;
+}
+
+.donut {
+	font-size: 4rem;
+	margin-left: 3rem;
+}
+
+.header-text {
+	background-color: crimson;
+	text-align: center;
+	color: #eee;
+}
+
+.rack {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.rack > img {
+	display: inline;
+	width: 300px;
+	height: 200px;
+	margin: 20px;
+	border-radius: 5px;
+}
+
+.products {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 20px;
+	list-style-type: none;
+	margin: 0;
+}
+
+.products li {
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	padding-inline: 38px;
+	font-size: 1.2rem;
+	margin: 0;
+}
+
+footer {
+	text-align: center;
+	background-color: crimson;
+}
+
+footer a {
+	text-decoration: none;
+	color: #eee;
+}
